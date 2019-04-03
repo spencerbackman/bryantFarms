@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Bryant Farms, Buy a Whole, Half, or a Quarter of a cow. Know where your beef comes from.">
+        <meta name="author" content="Spencer Backman">
+
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/nav.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600|Source+Serif+Pro" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oxygen:300|Source+Code+Pro" rel="stylesheet">
+        <title> Bryant Farms </title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <a onclick="document.getElementById('top-anchor').scrollIntoView({ behavior: 'smooth', block: 'start'})" class="logo" alt="bryantFarmsLogo">Bryant Farms</a>
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i id="open" class="fas fa-bars"></i>
+            </span>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a onclick="document.getElementById('top-anchor').scrollIntoView({ behavior: 'smooth', block: 'start'})" class="nav-links" id="homeLink">HOME</a>
+                </li>
+                <li>
+                    <a onclick="{document.getElementById('about-anchor').scrollIntoView({ behavior: 'smooth', block: 'start' })}" class="nav-links" id="aboutLink">ABOUT</a>
+                </li>
+                <li>
+                    <a onclick="{document.getElementById('gallery-anchor').scrollIntoView({ behavior: 'smooth', block: 'start'})}" class="nav-links" id="galleryLink">GALLERY</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="top-anchor" style="position: absolute; top: 0px; left: 0;"></div>
+        <img src="assets/images/droneShot.png" class="homeImg" alt="">
+        <div class="homeTop">
+            <div class="background-top"></div>
+            <img src="assets/images/bryantFarmsLogo.png" class="top-logo" alt="">
+            <h1 class="header1"> Bryant Farms </h1>
+            <p class="top-par"> Greenwood, Mississippi </p>
+            <h2 class="header2"> Grass Fed 100% Natural Beef. </h2>
+            <div class="freeWrapper">
+                <p class="top-par2">ANTIBIOTIC-FREE</p>
+                <p class="top-par2"> <i class="fas fa-circle fa-xs" style="font-size: 5px; margin-top: 7px; padding: 0 7px"></i> HORMONE-FREE </p>
+                <p class="top-par2"> <i class="fas fa-circle fa-xs" style="font-size: 5px; margin-top: 7px; padding: 0 7px"></i> GMO-FREE </p>
+            </div>
+            <div class="fb-phone-wrapper">
+                <a href="https://www.facebook.com/bryantfarmsbeef/" class="facebook-link"> <i class="fab fa-facebook-f fb-icon"></i> Follow Us </a>
+                <a href="tel:6622998143" class="phone-link"> (662) 299-8143 </a>
+            </div>
+        </div>
+
+
+
+        <div id="about" style="position: relative">
+            <div id="about-anchor" style="position: absolute; top: -50px; left: 0;"></div>
+        </div>
+        <div class="homeMid">
+            <img src="./assets/images/cowCuts.png" class="cowCuts" alt="">
+            <h2 class="header3"> World Class Flavor. </h2>
+            <div class="midHolder">
+
+                <p class="homePar"> 
+                    At Bryant Farms our cattle are raised how they should be. They are pastured raised grass fed cows 
+                    until the last 4-5 months when they are finished with a mix of grass & grain. Switching them to grain 
+                    fattens the cattle up, making their meat juicy with an exquisite taste. Know what you're feeding your
+                    family, antibiotic-free, hormone-free, and gmo-free natural beef.
+                </p>
+
+            </div>
+            <div class="commercial">
+                <iframe class="vid" src="https://player.vimeo.com/video/327348653" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+            </div>
+        </div>
+
+
+        <div id="gallery" style="position: relative">
+            <div id="gallery-anchor" style="position: absolute; top: -50px; left: 0;"></div>
+        </div>
+        <div class="line"></div>
+        <h2 class="header3" id="carousel-header"> Gallery</h2>
+
+        <div class="slideshow-container"> 
+        <div class="mySlides fade" id="slide1"> 
+          <img src="assets/images/3cowsEating.JPG" class="slide"> 
+        </div> 
+        
+        <div class="mySlides fade" id="slide2"> 
+          <img src="assets/images/blackWhiteCow.JPG" class="slide"> 
+        </div> 
+        
+        <div class="mySlides fade" id="slide3"> 
+          <img src="assets/images/bunny.JPG" class="slide"> 
+        </div> 
+        
+        <div class="mySlides fade" id="slide4"> 
+          <img src="assets/images/buttingHeads.JPG" class="slide"> 
+        </div> 
+        <div class="mySlides fade" id="slide5"> 
+            <img src="assets/images/chickens.JPG" class="slide"> 
+        </div> 
+        <div class="mySlides fade" id="slide6"> 
+            <img src="assets/images/cowFace.JPG" class="slide"> 
+        </div> 
+        <div class="mySlides fade" id="slide7"> 
+            <img src="assets/images/cowFront.JPG" class="slide"> 
+        </div> 
+        <div class="mySlides fade" id="slide8"> 
+            <img src="assets/images/cowFront2.JPG" class="slide"> 
+        </div> 
+        <div class="mySlides fade" id="slide9"> 
+            <img src="assets/images/cows.JPG" class="slide"> 
+        </div> 
+        <div class="mySlides fade" id="slide10"> 
+            <img src="assets/images/droneShot.png" class="slide"> 
+        </div> 
+        <div class="mySlides fade" id="slide11"> 
+            <img src="assets/images/Bryant.JPG" class="slide"> 
+        </div> 
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div> 
+      <br> 
+        
+      <div class="dotHolder" style="text-align:center"> 
+        <span class="dot" onclick="currentSlide(1)"></span>  
+        <span class="dot" onclick="currentSlide(2)"></span>  
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>  
+        <span class="dot" onclick="currentSlide(8)"></span>  
+        <span class="dot" onclick="currentSlide(9)"></span>
+        <span class="dot" onclick="currentSlide(10)"></span>
+        <span class="dot" onclick="currentSlide(11)"></span>
+      </div> 
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+function plusSlides(n) {
+    showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+        <script type="text/javascript" src="assets/js/nav.js"></script>
+    </body>
+</html>
