@@ -43,6 +43,9 @@ body {
 }
 
 .homeImg {
+    background: url(../images/droneShot.png);
+    background-size: cover;
+    background-attachment: fixed;
     height: 90vh;
     width: auto;
     position: absolute;
