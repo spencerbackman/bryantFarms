@@ -1,8 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100vw;
     height: 100%;
+    -webkit-overflow: hidden;
     overflow-x: hidden;
     background: #f9f9f9;
 }
@@ -19,6 +20,7 @@ body {
     justify-items: center;
     align-items: center;
     align-content: center;
+    overflow-x: hidden;
 }
 .top-logo {
     height: 125px;
@@ -340,10 +342,12 @@ body {
 
 .slideshow-container {
     height: auto;
-    width: 100%;
+    max-width: 750px;
+    width: auto;
     display: flex;
     flex-direction: column;
     position: relative;
+    margin: 0 auto;
 }
 .mySlides {
     left: 0;
@@ -354,8 +358,8 @@ body {
 }
 
 .slide {
-    max-height: 80vh;
-    max-width: 90vw;
+    max-height: 445px;
+    max-width: 667px;
     height: auto;
     width: auto;
 }
