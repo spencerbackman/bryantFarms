@@ -30,6 +30,7 @@
     list-style-type: none;
     display: none;
     padding-top: 20px;
+    background: #212121;
 }
 
 .nav-links {
@@ -37,7 +38,6 @@
     color: #536F64;
     font-size: 20px;
     font-family: 'Oxygen', sans-serif;
-    background: #212121;
 }
 
 .main-nav li {
@@ -83,6 +83,7 @@
         padding-right: 50px;
         z-index: 100;
         padding-top: 0;
+        background: #212121;
     }
     
     .main-nav li {
